@@ -1,0 +1,79 @@
+Time : 11:57:14
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new.td_chatroom_massage' doesn't exist
+Raw SQL : SELECT Ch_Id FROM td_chatroom_massage 
+			  INNER JOIN td_chatroom ON td_chatroom.Ch_Id = td_chatroom_massage.ms_To
+			  WHERE ch_state = '1' and ch_Admin = :id and ms_View = '0' and ms_Type = '2'
+
+Time : 11:57:14
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new.td_chatroom' doesn't exist
+Raw SQL : SELECT Ch_Name,ch_TimeIn,Ch_Id FROM td_chatroom WHERE ch_state = '0' ORDER BY ch_TimeIn DESC
+
+Time : 11:55:19
+SQLSTATE[HY000]: General error: 1036 Table 'D:\xampp\tmp\#sql213c_21cb4_0.MAI' is read only
+Raw SQL : SELECT * FROM td_tiket 
+  INNER JOIN td_Department ON td_tiket.tk_departmen =  td_Department.id_dep
+  WHERE tk_user_id = '2' and  tk_state != '4' and dep_state = '1' ORDER BY tk_timestamp_res DESC LIMIT 0,10
+
+Time : 11:52:32
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new.td_chatroom' doesn't exist
+Raw SQL : SELECT Ch_Name,ch_TimeIn,Ch_Id FROM td_chatroom WHERE ch_state = '0' ORDER BY ch_TimeIn DESC
+
+Time : 11:52:32
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new.td_chatroom_massage' doesn't exist
+Raw SQL : SELECT Ch_Id FROM td_chatroom_massage 
+			  INNER JOIN td_chatroom ON td_chatroom.Ch_Id = td_chatroom_massage.ms_To
+			  WHERE ch_state = '1' and ch_Admin = :id and ms_View = '0' and ms_Type = '2'
+
+Time : 11:52:32
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new.td_chatroom' doesn't exist
+Raw SQL : SELECT ch_New_Massage,ch_Last_By,ch_Last_Response,ch_Last_Text,Ch_Id,Ch_Name FROM td_chatroom  WHERE  ch_Admin = :id and ch_state = '1'
+
+Time : 11:52:32
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new.td_chatroom' doesn't exist
+Raw SQL : SELECT Ch_Name,ch_TimeIn,Ch_Id FROM td_chatroom WHERE ch_state = '0' ORDER BY ch_TimeIn DESC
+
+Time : 11:52:31
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new.td_chatroom_massage' doesn't exist
+Raw SQL : SELECT Ch_Id FROM td_chatroom_massage 
+			  INNER JOIN td_chatroom ON td_chatroom.Ch_Id = td_chatroom_massage.ms_To
+			  WHERE ch_state = '1' and ch_Admin = :id and ms_View = '0' and ms_Type = '2'
+
+Time : 11:19:38
+SQLSTATE[HY000]: General error: 1036 Table 'D:\xampp\tmp\#sql213c_1b882_0.MAI' is read only
+Raw SQL : SELECT * FROM td_tiket 
+  INNER JOIN td_Department ON td_tiket.tk_departmen =  td_Department.id_dep
+  WHERE tk_user_id = '2' and  tk_state != '4' and dep_state = '1' ORDER BY tk_timestamp_res DESC LIMIT 0,10
+
+Time : 11:05:39
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sysdate' in 'where clause'
+Raw SQL : SELECT state_admin,admin_lastRes,id_am FROM  td_asmin WHERE admin_lastRes >= sysdate - 1/(24*60)
+
+Time : 09:21:32
+SQLSTATE[HY000]: General error: 1036 Table 'D:\xampp\tmp\#sql213c_20ff_0.MAI' is read only
+Raw SQL : SELECT * FROM td_tiket 
+  INNER JOIN td_Department ON td_tiket.tk_departmen =  td_Department.id_dep
+  WHERE tk_user_id = '2' and  tk_state != '4' and dep_state = '1' ORDER BY tk_timestamp_res DESC LIMIT 0,10
+
+Time : 09:18:23
+SQLSTATE[HY000]: General error: 1036 Table 'D:\xampp\tmp\#sql213c_1a2a_0.MAI' is read only
+Raw SQL : SELECT * FROM td_tiket 
+  INNER JOIN td_Department ON td_tiket.tk_departmen =  td_Department.id_dep
+  WHERE tk_user_id = '0' and  tk_state != '4' and dep_state = '1' ORDER BY tk_timestamp_res DESC LIMIT 0,10
+
+Time : 09:18:11
+SQLSTATE[HY000]: General error: 1036 Table 'D:\xampp\tmp\#sql213c_1977_0.MAI' is read only
+Raw SQL : SELECT * FROM td_tiket 
+  INNER JOIN td_Department ON td_tiket.tk_departmen =  td_Department.id_dep
+  WHERE tk_user_id = '0' and  tk_state != '4' and dep_state = '1' ORDER BY tk_timestamp_res DESC LIMIT 0,10
+
+Time : 09:16:08
+SQLSTATE[HY000]: General error: 1036 Table 'D:\xampp\tmp\#sql213c_15da_0.MAI' is read only
+Raw SQL : SELECT * FROM td_tiket 
+  INNER JOIN td_Department ON td_tiket.tk_departmen =  td_Department.id_dep
+  WHERE tk_user_id = '0' and  tk_state != '4' and dep_state = '1' ORDER BY tk_timestamp_res DESC LIMIT 0,10
+
+Time : 09:14:47
+SQLSTATE[HY000]: General error: 1036 Table 'D:\xampp\tmp\#sql213c_13a0_0.MAI' is read only
+Raw SQL : SELECT * FROM td_tiket 
+  INNER JOIN td_Department ON td_tiket.tk_departmen =  td_Department.id_dep
+  WHERE tk_user_id = '0' and  tk_state != '4' and dep_state = '1' ORDER BY tk_timestamp_res DESC LIMIT 0,10

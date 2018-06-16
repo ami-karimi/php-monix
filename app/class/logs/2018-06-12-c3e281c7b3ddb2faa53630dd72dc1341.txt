@@ -1,0 +1,23 @@
+Time : 20:28:43
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id_ms ASC LIMIT 10' at line 1
+Raw SQL : SELECT * FROM td_chatroom_massage WHERE  ms_ChatID = ''  and id_ms <   ORDER BY id_ms ASC LIMIT 10
+
+Time : 20:28:43
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id_ms ASC LIMIT 10' at line 1
+Raw SQL : SELECT * FROM td_chatroom_massage WHERE  ms_ChatID = ''  and id_ms <   ORDER BY id_ms ASC LIMIT 10
+
+Time : 20:24:56
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id_ms ASC LIMIT 10' at line 1
+Raw SQL : SELECT * FROM td_chatroom_massage WHERE  ms_ChatID = ''  and id_ms <   ORDER BY id_ms ASC LIMIT 10
+
+Time : 20:24:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id_ms ASC LIMIT 10' at line 1
+Raw SQL : SELECT * FROM td_chatroom_massage WHERE  ms_ChatID = 'cigt03uc244037'  and id_ms <   ORDER BY id_ms ASC LIMIT 10
+
+Time : 19:50:51
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pr_key' in 'field list'
+Raw SQL : SELECT pr_key FROM td_setting WHERE se_Key = 'website_template'  
+
+Time : 19:50:14
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new.manage_theme' doesn't exist
+Raw SQL : SELECT pr_key FROM manage_theme WHERE se_Key = 'website_template'  

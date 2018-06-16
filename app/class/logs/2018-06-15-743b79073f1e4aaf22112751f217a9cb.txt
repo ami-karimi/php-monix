@@ -1,0 +1,66 @@
+Time : 15:56:01
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY td_tiket.tk_timestamp_res DESC' at line 3
+Raw SQL : SELECT tk_code,tk_title,tk_timestamp_res,tk_last_req,tk_state,dep_title FROM td_tiket 
+  LEFT JOIN td_Department ON td_tiket.tk_departmen = td_Department.id_dep 
+  WHERE td_tiket.tk_parent = '0'  and td_tiket.tk_state < 4  and tk_departmen IN () ORDER BY td_tiket.tk_timestamp_res DESC
+
+Time : 15:56:01
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY td_tiket.tk_timestamp_res DESC' at line 3
+Raw SQL : SELECT tk_code,tk_title,tk_timestamp_res,tk_last_req,tk_state,dep_title FROM td_tiket 
+  LEFT JOIN td_Department ON td_tiket.tk_departmen = td_Department.id_dep 
+  WHERE td_tiket.tk_parent = '0'  and td_tiket.tk_state < 4  and tk_departmen IN () ORDER BY td_tiket.tk_timestamp_res DESC
+
+Time : 15:54:37
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY td_tiket.tk_timestamp_res DESC' at line 3
+Raw SQL : SELECT tk_code,tk_title,tk_timestamp_res,tk_last_req,tk_state,dep_title FROM td_tiket 
+  LEFT JOIN td_Department ON td_tiket.tk_departmen = td_Department.id_dep 
+  WHERE td_tiket.tk_parent = '0'  and td_tiket.tk_state < 4  and tk_departmen IN () ORDER BY td_tiket.tk_timestamp_res DESC
+
+Time : 15:54:36
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY td_tiket.tk_timestamp_res DESC' at line 3
+Raw SQL : SELECT tk_code,tk_title,tk_timestamp_res,tk_last_req,tk_state,dep_title FROM td_tiket 
+  LEFT JOIN td_Department ON td_tiket.tk_departmen = td_Department.id_dep 
+  WHERE td_tiket.tk_parent = '0'  and td_tiket.tk_state < 4  and tk_departmen IN () ORDER BY td_tiket.tk_timestamp_res DESC
+
+Time : 15:54:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY td_tiket.tk_timestamp_res DESC' at line 3
+Raw SQL : SELECT tk_code,tk_title,tk_timestamp_res,tk_last_req,tk_state,dep_title FROM td_tiket 
+  LEFT JOIN td_Department ON td_tiket.tk_departmen = td_Department.id_dep 
+  WHERE td_tiket.tk_parent = '0'  and td_tiket.tk_state < 4  and tk_departmen IN () ORDER BY td_tiket.tk_timestamp_res DESC
+
+Time : 15:54:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY td_tiket.tk_timestamp_res DESC' at line 3
+Raw SQL : SELECT tk_code,tk_title,tk_timestamp_res,tk_last_req,tk_state,dep_title FROM td_tiket 
+  LEFT JOIN td_Department ON td_tiket.tk_departmen = td_Department.id_dep 
+  WHERE td_tiket.tk_parent = '0'  and td_tiket.tk_state < 4  and tk_departmen IN () ORDER BY td_tiket.tk_timestamp_res DESC
+
+Time : 15:54:21
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY td_tiket.tk_timestamp_res DESC' at line 3
+Raw SQL : SELECT tk_code,tk_title,tk_timestamp_res,tk_last_req,tk_state,dep_title FROM td_tiket 
+  LEFT JOIN td_Department ON td_tiket.tk_departmen = td_Department.id_dep 
+  WHERE td_tiket.tk_parent = '0'  and td_tiket.tk_state < 4  and tk_departmen IN () ORDER BY td_tiket.tk_timestamp_res DESC
+
+Time : 15:53:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')    ORDER BY tk_timestamp_res DESC' at line 4
+Raw SQL : SELECT * FROM td_tiket 
+  INNER JOIN td_Department ON td_tiket.tk_departmen = td_Department.id_dep
+  LEFT JOIN  td_user ON  td_tiket.tk_user_id = td_user.id_user
+  WHERE tk_parent='0'  and tk_departmen IN ()    ORDER BY tk_timestamp_res DESC
+
+Time : 15:52:53
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY td_tiket.tk_timestamp_res DESC' at line 3
+Raw SQL : SELECT tk_code,tk_title,tk_timestamp_res,tk_last_req,tk_state,dep_title FROM td_tiket 
+  LEFT JOIN td_Department ON td_tiket.tk_departmen = td_Department.id_dep 
+  WHERE td_tiket.tk_parent = '0'  and td_tiket.tk_state < 4  and tk_departmen IN () ORDER BY td_tiket.tk_timestamp_res DESC
+
+Time : 15:52:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY td_tiket.tk_timestamp_res DESC' at line 3
+Raw SQL : SELECT tk_code,tk_title,tk_timestamp_res,tk_last_req,tk_state,dep_title FROM td_tiket 
+  LEFT JOIN td_Department ON td_tiket.tk_departmen = td_Department.id_dep 
+  WHERE td_tiket.tk_parent = '0'  and td_tiket.tk_state < 4  and tk_departmen IN () ORDER BY td_tiket.tk_timestamp_res DESC
+
+Time : 15:51:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY td_tiket.tk_timestamp_res DESC' at line 3
+Raw SQL : SELECT tk_code,tk_title,tk_timestamp_res,tk_last_req,tk_state,dep_title FROM td_tiket 
+  LEFT JOIN td_Department ON td_tiket.tk_departmen = td_Department.id_dep 
+  WHERE td_tiket.tk_parent = '0'  and td_tiket.tk_state < 4  and tk_departmen IN () ORDER BY td_tiket.tk_timestamp_res DESC

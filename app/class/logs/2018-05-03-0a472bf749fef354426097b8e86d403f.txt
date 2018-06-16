@@ -1,0 +1,23 @@
+Time : 07:47:18
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id_ms ASC LIMIT 10' at line 1
+Raw SQL : SELECT * FROM td_chatroom_massage WHERE  ms_ChatID = ''  and id_ms <   ORDER BY id_ms ASC LIMIT 10
+
+Time : 07:47:15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id_ms ASC LIMIT 10' at line 1
+Raw SQL : SELECT * FROM td_chatroom_massage WHERE  ms_ChatID = ''  and id_ms <   ORDER BY id_ms ASC LIMIT 10
+
+Time : 07:47:15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id_ms ASC LIMIT 10' at line 1
+Raw SQL : SELECT * FROM td_chatroom_massage WHERE  ms_ChatID = ''  and id_ms <   ORDER BY id_ms ASC LIMIT 10
+
+Time : 07:45:57
+SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+
+
+Time : 07:45:55
+SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+
+
+Time : 07:45:52
+SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+

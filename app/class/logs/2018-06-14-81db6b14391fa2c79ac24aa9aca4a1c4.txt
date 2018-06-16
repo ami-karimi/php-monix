@@ -1,0 +1,5 @@
+Time : 20:11:04
+SQLSTATE[HY000]: General error: 1036 Table 'D:\xampp\tmp\#sql25e8_291a_2.MAI' is read only
+Raw SQL : SELECT * FROM td_tiket 
+    INNER JOIN td_Department ON td_tiket.tk_departmen =  td_Department.id_dep
+    WHERE tk_user_id = '2' and tk_state !='4'  ORDER BY id_tiket DESC LIMIT 0,10

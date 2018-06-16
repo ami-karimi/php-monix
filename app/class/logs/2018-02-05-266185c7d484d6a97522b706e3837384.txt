@@ -1,0 +1,3 @@
+Time : 21:54:31
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id_ms ASC LIMIT 10' at line 1
+Raw SQL : SELECT * FROM td_chatroom_massage WHERE  ms_ChatID = ''  and id_ms <   ORDER BY id_ms ASC LIMIT 10

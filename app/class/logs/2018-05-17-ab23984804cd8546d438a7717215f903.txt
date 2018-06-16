@@ -1,0 +1,18 @@
+Time : 10:07:09
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new.td_setting' doesn't exist
+Raw SQL : SELECT * FROM td_setting WHERE  se_Key = :id
+
+Time : 10:07:09
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new.td_setting' doesn't exist
+Raw SQL : SELECT * FROM td_setting WHERE  se_Key = :id
+
+Time : 10:07:08
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new.td_setting' doesn't exist
+Raw SQL : SELECT * FROM td_setting WHERE  se_Key = :id
+
+Time : 10:07:07
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'new.td_setting' doesn't exist
+Raw SQL : SELECT * FROM td_setting WHERE  se_Key = :id
+
+Time : 10:06:32
+SQLSTATE[HY000] [1049] Unknown database 'new'

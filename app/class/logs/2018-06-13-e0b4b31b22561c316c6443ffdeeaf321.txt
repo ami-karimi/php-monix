@@ -1,0 +1,20 @@
+Time : 20:48:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE dep_state = '1'' at line 1
+Raw SQL : SELECT * FROM td_Department WHERE dep_state = '1'  WHERE dep_state = '1'
+
+Time : 20:48:26
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE dep_state = '1'' at line 1
+Raw SQL : SELECT * FROM td_Department WHERE dep_state = '1'  WHERE dep_state = '1'
+
+Time : 20:47:46
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE dep_state = '1'' at line 1
+Raw SQL : SELECT * FROM td_Department WHERE dep_state = '1' WHERE dep_state = '1'
+
+Time : 20:47:45
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE dep_state = '1'' at line 1
+Raw SQL : SELECT * FROM td_Department WHERE dep_state = '1' WHERE dep_state = '1'
+
+Time : 20:09:28
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fl_code' cannot be null
+Raw SQL : INSERT INTO  td_file(fl_filename,fl_code,fl_type,fl_min_path,fl_full_path,fl_user_id,fl_state,fl_timestamp,fl_size) VALUES
+					     (:fl_filename,:fl_code,:fl_type,:fl_min_path,:fl_full_path,:fl_user_id,:fl_state,:fl_timestamp,:fl_size)
